@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #464646;
+  --backgroundtwo: #1a1a1a;
+}
+/*navbar*/
+
+.navcontainer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    justify-content: space-between; 
+    padding: 10px;
+    height: 60px;
+}
+
+.navitems ul {
+    display: flex;
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+.navitems ul li {
+    margin-right: 50px; 
+}
+
+.navitems ul a {
+    text-decoration: none;
+    color: white; 
+}
+
+.navlogo {
+    display: flex;
+    align-items: center; 
+}
+
+.navlogo p {
+    font-size: 25px;
+    margin: 0; 
+    margin-left: 30px;
+}
+
+
+/*end of navbar */
+
+/* Aboutme section */
+.aboutmecontainer {
+  background-color: var(--backgroundtwo);
+  color: var(--white);
+  padding-top: 50px;
+
+}
+
+.aboutmetitle {
+  text-align: center;
+}
+
+#aboutmetitle-text {
+  background-color: var(--gray);
+  padding: 10px 15px;
+  display: inline-block; 
+  border-radius: 25px; 
+  font-size: medium;
+}
+
+.aboutmepicandpara {
+  display: flex;
+}
+
+#aboutmepicimg {
+  max-width: 400px;
+  margin-left: 260px;
+  margin-top: 70px;
+  box-shadow: 8px 10px 10px rgba(252, 252, 252, 0.1);
+}
+
+.aboutmeparacontainer {
+  max-width: 700px;
+  margin-left: auto; 
+  margin-right: 150px;
+}
+
+.ame-title-des {
+  font-size: 25px;
+}
+
+.aboutmepara {
+  margin-top: 30px;
+}
+
+.about-me__text {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  color: #9c9090; 
+  font-size: 1rem; 
+}
+/*end Aboutme section */
+
+/*Skill section */
+
+#skillstitle-text {
+  background-color: var(--gray);
+  padding: 10px 15px;
+  display: inline-block; 
+  border-radius: 25px; 
+  font-size: medium;
+}
+
+.skilltitle {
+  text-align: center;
+}
+
+.skillcontainer {
+  background-color: var(--black);
+  padding-top: 50px;
+  color: var(--white);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.skillitems {
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  gap: 20px;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.skillitemimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skillitemimgtag {
+  max-width: 50px;
+}
+
+.skillitemimg p {
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/*end Skill section */
+/* Projects section */
+#projecttitle-text {
+  background-color: var(--gray);
+  padding: 10px 15px;
+  display: inline-block; 
+  border-radius: 25px; 
+  font-size: medium;
+}
+
+.projecttitle {
+  text-align: center;
+}
+
+.projectsontainer {
+  background-color: var(--backgroundtwo);
+  padding-top: 50px;
+  color: var(--white);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.projectcards {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+  justify-content: center; /* Center the items horizontally */
+}
+
+/*end Projects section */
+/* Get-in-touch section */
+
+#getintouchtitle-text {
+  background-color: var(--gray);
+  padding: 10px 15px;
+  display: inline-block; 
+  border-radius: 25px; 
+  font-size: medium;
+}
+
+.getintouchtitle {
+  text-align: center;
+}
+
+.getintouchcontainer {
+  background-color: var(--black);
+  padding-top: 50px;
+  color: var(--white);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.getintouchmail {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  gap: 40px;
+}
+
+#mailicong-i-t {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#mailicong-i-tcopy {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+
+.getintouchmobile {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#mobileicong-i-t {
+  max-height: 40px;
+}
+
+#mobileicong-i-tcopy {
+  max-height: 40px;
+}
+
+
+#social-icons-get-i-t{
+  max-height: 25px;
+}
+
+.get-in-touch-social-icons-section{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.get-in-touch-social-icons {
+  gap: 20px;
+  display: flex;
+}
+
+
+/*end Get-in-touch section */
+/*Footer section */
+.footer-content {
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--backgroundtwo);
+}
+
+.footer-content p{ 
+  padding: 20px;
+  margin: 0;
+}
+/*end Footer section */
+
+
