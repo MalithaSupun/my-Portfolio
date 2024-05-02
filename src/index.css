@@ -252,6 +252,7 @@
 }
 
 .projectcards {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(5,1fr);
   gap: 20px;
@@ -377,6 +378,13 @@
 }
 /*aboutme*/
 
+/*projects*/
+.projectcards {
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
+/*projects*/
+
 }
 
 
@@ -468,9 +476,19 @@
 }
 /*aboutme*/
 
+/*skils*/
 .skillitems {
   grid-template-columns: repeat(8,1fr);
 }
+/*skils*/
+
+/*projects*/
+.projectcards {
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+/*projects*/
+
 
 }
 
@@ -515,8 +533,6 @@
   grid-template-columns: repeat(5,1fr);
   gap: 15px;
 }
-
-
 /*skills*/
 
 }
@@ -608,6 +624,13 @@
   font-size: 12px; /* Adjust the font size as needed */
 }
 /*skills*/
+
+/*projects*/
+.projectcards {
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+}
+/*projects*/
 
 }
 
