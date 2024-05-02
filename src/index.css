@@ -151,6 +151,7 @@
 }
 
 .aboutmepicandpara {
+  margin-top: 15px;
   display: flex;
 }
 
@@ -350,7 +351,7 @@
 
 /*media query*/
 
-@media screen and (min-width: 1280px) and (max-width: 1536px) {
+@media screen and (max-width: 1536px) {
 
   /*Home*/
   .H-textSection{
@@ -364,6 +365,17 @@
     margin-left: 100px;
 }
 /*Home*/
+
+/*aboutme*/
+.aboutmepicandpara {
+  gap: 40px;
+}
+
+#aboutmepicimg {
+  margin-left: 200px;
+}
+/*aboutme*/
+
 }
 
 
@@ -383,7 +395,16 @@
     margin-left: 60px;
 }
 /*Home*/
+/*aboutme*/
+.aboutmepicandpara {
+  gap: 40px;
+}
 
+#aboutmepicimg {
+  margin-left: 100px;
+  max-width: 300px;
+}
+/*aboutme*/
 
 }
 
@@ -419,11 +440,33 @@
 }
 /*navbar*/
 
+/*aboutme*/
+.aboutmepicandpara {
+  gap: 40px;
+}
+
+#aboutmepicimg {
+  margin-left: 90px;
+  max-width: 280px;
+}
+.about-me__text {
+  font-size: 11px; /* Adjust font size as needed */
+}
+
+.aboutmeparacontainer {
+  max-width: 800px;
+  margin-right: 100px;
+}
+.ame-title-des {
+  font-size: 20px;
+}
+/*aboutme*/
+
 
 }
 
 
-@media screen and (min-width: 540px) and (max-width: 768px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
  /*Home*/
   .H-textSection p {
     font-size: 15px;
@@ -435,6 +478,29 @@
     margin-right: 20px; /* Add margin between list items */
 }
 /*navbar*/
+/*aboutme*/
+.aboutmepicandpara {
+  gap: 20px;
+}
+
+#aboutmepicimg {
+  margin-left: 50px;
+  max-width: 220px;
+}
+.about-me__text {
+  font-size: 11px; /* Adjust font size as needed */
+}
+
+.aboutmeparacontainer {
+  max-width: 800px;
+  margin-right: 50px;
+}
+.ame-title-des {
+  font-size: 20px;
+}
+
+/*aboutme*/
+
 }
 
 /* bellow 640px mobile size*/
@@ -483,6 +549,36 @@
   display: none;
 }
 /*nabar*/
+
+/*aboutme*/
+.aboutmepicandpara {
+  margin-top: 20px;
+  display: grid;
+  padding-left: 30px;
+  padding-right: 30px; 
+}
+.aboutmepicandpara {
+  gap: 10px;
+}
+
+#aboutmepicimg {
+  max-width: 220px;
+  margin: 0 auto; /* Centers the image horizontally */
+}
+.about-me__text {
+  font-size: 11px; /* Adjust font size as needed */
+}
+
+.aboutmeparacontainer {
+  max-width: 800px;
+  margin: 0 auto; /* This centers the element horizontally */
+}
+.ame-title-des {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*aboutme*/
 
 
 }
