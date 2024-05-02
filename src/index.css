@@ -9,14 +9,14 @@
 @tailwind utilities;
 
 
-
-
 :root {
   --black: #000000;
   --white: #ffffff;
   --gray: #464646;
   --backgroundtwo: #1a1a1a;
 }
+
+
 /*navbar*/
 
 .navcontainer {
@@ -24,47 +24,118 @@
     align-items: center;
     background-color: rgb(22, 22, 22);
     color: white;
-    justify-content: space-between; 
-    padding: 10px;
+    justify-content: space-between; /* Add this to space the logo and items */
+    padding: 10px; /* Add padding for better spacing */
     height: 60px;
 }
 
 .navitems ul {
     display: flex;
     list-style: none;
-    margin: 0; 
-    padding: 0; 
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 .navitems ul li {
-    margin-right: 50px; 
+    margin-right: 50px; /* Add margin between list items */
 }
 
 .navitems ul a {
     text-decoration: none;
-    color: white; 
+    color: white; /* Set text color to white */
 }
 
 .navlogo {
     display: flex;
-    align-items: center; 
+    align-items: center; /* Vertically center the content */
 }
 
 .navlogo p {
     font-size: 25px;
-    margin: 0; 
+    margin: 0; /* Remove default margin */
     margin-left: 30px;
 }
 
 
 /*end of navbar */
+/*Home section */
 
+.H-textSection{
+  display: block;
+  margin-top: 150px;
+  margin-left: 150px;
+  max-width: 900px;
+}
+
+.H-textSection h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.H-textSection p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.ptaglocationhome {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.homecontainer {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.imagesection {
+    margin-top: 50px;
+    max-width: 570px;
+    margin-left: 150px;
+}
+
+.DownloadCv {
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white; /* Set text color */
+    border: 2px solid white; /* Initial border style */
+    animation: loading-border 2s infinite linear; /* Apply loading animation for border */
+}
+
+.DownloadCv:hover {
+    background-color: rgba(31, 143, 163, 0.493); /* Lighten the background color on hover */
+  }
+
+@keyframes loading-border {
+    0% {
+      border-color: white; /* Start with white border color */
+    }
+    50% {
+      border-color: rgb(0, 225, 255); /* Change to sky blue at halfway point */
+    }
+    100% {
+      border-color: white; /* Return to white at the end */
+    }
+  }
+
+  .setofsocial {
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .social-icon {
+    width: 25px; /* Set the width of the social media icons */
+    margin-right: 10px; /* Add margin between the icons */
+  }
+  
+/*end Home section */
 /* Aboutme section */
 .aboutmecontainer {
   background-color: var(--backgroundtwo);
   color: var(--white);
   padding-top: 50px;
-
 }
 
 .aboutmetitle {
@@ -92,7 +163,7 @@
 
 .aboutmeparacontainer {
   max-width: 700px;
-  margin-left: auto; 
+  margin-left: auto; /* Align to the right side */
   margin-right: 150px;
 }
 
@@ -107,8 +178,8 @@
 .about-me__text {
   margin-bottom: 1.5rem;
   line-height: 1.5;
-  color: #9c9090; 
-  font-size: 1rem; 
+  color: #9c9090; /* Adjust color as needed */
+  font-size: 1rem; /* Adjust font size as needed */
 }
 /*end Aboutme section */
 
@@ -275,5 +346,145 @@
   margin: 0;
 }
 /*end Footer section */
+
+
+/*media query*/
+
+@media screen and (min-width: 1280px) and (max-width: 1536px) {
+
+  /*Home*/
+  .H-textSection{
+    margin-top: 100px;
+    margin-left: 90px;
+    max-width: 600px;
+  }
+
+  .imagesection {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+/*Home*/
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+  /*Home*/
+  .H-textSection{
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  .H-textSection h1 {
+    font-size: 41px;
+  }
+
+  .imagesection {
+    margin-left: 60px;
+}
+/*Home*/
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+/*Home*/
+  .H-textSection{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .H-textSection h1 {
+    font-size: 30px;
+  }
+
+  .H-textSection p {
+    font-size: 18px;
+  }
+
+  .imagesection {
+    margin-left: 20px;
+}
+
+.DownloadCv {
+  margin-top: 30px;
+  padding: 3px 5px;
+}
+/*Home*/
+
+  /*navbar*/
+  .navitems ul li {
+    margin-right: 30px; /* Add margin between list items */
+}
+/*navbar*/
+
+
+}
+
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+ /*Home*/
+  .H-textSection p {
+    font-size: 15px;
+  }
+  /*Home*/
+
+  /*navbar*/
+  .navitems ul li {
+    margin-right: 20px; /* Add margin between list items */
+}
+/*navbar*/
+}
+
+/* bellow 640px mobile size*/
+@media screen and (max-width: 640px) {
+
+  /*Home*/
+  .H-textSection{
+    margin-left: 0px;
+    text-align: center; /* Centers the text horizontally */
+  }
+
+  .homecontainer {
+    display: grid;
+    padding: 40px;
+}
+
+.H-textSection h1 {
+  text-align: center;
+}
+
+.H-textSection p {
+  text-align: start;
+  font-size: 15px;
+}
+
+.setofsocial,
+.ptaglocationhome{
+  margin: 0 auto; /* Centering horizontally */
+  width: fit-content; /* Allows centering */
+  margin-top: 15px;
+}
+
+.DownloadCv {
+  display: inline-block; /* Ensures the button is centered */
+}
+
+.imagesection {
+  margin-top: 50px;
+  max-width: 500px;
+  margin-bottom:  -40px;
+}
+/*Home*/
+
+/*nabar*/
+.navitems ul {
+  display: none;
+}
+/*nabar*/
+
+
+}
 
 
