@@ -207,6 +207,7 @@
 }
 
 .skillitems {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(10,1fr);
   gap: 20px;
@@ -406,6 +407,11 @@
 }
 /*aboutme*/
 
+/*skills*/
+.skillitems {
+  grid-template-columns: repeat(8,1fr);
+}
+/*skills*/
 }
 
 @media screen and (max-width: 1024px) {
@@ -462,6 +468,9 @@
 }
 /*aboutme*/
 
+.skillitems {
+  grid-template-columns: repeat(8,1fr);
+}
 
 }
 
@@ -500,6 +509,15 @@
 }
 
 /*aboutme*/
+
+/*skills*/
+.skillitems {
+  grid-template-columns: repeat(5,1fr);
+  gap: 15px;
+}
+
+
+/*skills*/
 
 }
 
@@ -580,6 +598,16 @@
 
 /*aboutme*/
 
+/*skills*/
+.skillitems {
+  grid-template-columns: repeat(4,1fr);
+  gap: 5px;
+}
+
+.mt-3 {
+  font-size: 12px; /* Adjust the font size as needed */
+}
+/*skills*/
 
 }
 

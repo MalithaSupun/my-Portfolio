@@ -34,22 +34,22 @@ const Skills = () => {
 
             <div className="skillitemimg">
                 <img id='skillitemimgtag' src= {reacticon} alt="React" />
-                <p>React</p>
+                <p className='mt-3'>React</p>
             </div>
 
             <div className="skillitemimg">
                 <img id='skillitemimgtag' src= {html} alt="Html" />
-                <p>Html</p>
+                <p className='mt-3'>Html</p>
             </div>
 
             <div className="skillitemimg">
                 <img id='skillitemimgtag' src= {css} alt="css" />
-                <p>Css</p>
+                <p className='mt-3'>Css</p>
             </div>
 
             <div className="skillitemimg">
                 <img id='skillitemimgtag' src= {javascript} alt="javascript" />
-                <p>javascript</p>
+                <p className='mt-3' >javascript</p>
             </div>
 
             <div className="skillitemimg">
@@ -59,12 +59,12 @@ const Skills = () => {
 
             <div className="skillitemimg">
                 <img id='skillitemimgtag' className='mt-3' src= {php} alt="php" />
-                <p className='mt-4'>php</p>
+                <p className='mt-3'>php</p>
             </div>
 
             <div className="skillitemimg">
                 <img id='skillitemimgtag' className='mt-3' src= {tailwind} alt="tailwind" />
-                <p className='mt-4'>tailwind</p>
+                <p className='mt-3'>tailwind</p>
             </div>
 
             <div className="skillitemimg">
