@@ -709,6 +709,9 @@
 
 /* bellow 380px mobile size*/
 @media screen and (max-width: 400px) {
+  .H-textSection h1 {
+    font-size: 26px;
+  }
 /*get in touch*/
 #get-in-t-h2{
   font-size: 15px;
