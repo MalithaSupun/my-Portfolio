@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { IoMdMenu } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const navbar = () => {
@@ -18,7 +18,7 @@ const navbar = () => {
                 <li><a>Contact Me</a></li>
             </ul>
         </div>
-        <IoMdMenu id='menu-icon'/>
+        <GiHamburgerMenu id='menu-icon' className='mr-7'/>
     </div>
     </>
   )
