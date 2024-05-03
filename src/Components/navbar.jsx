@@ -6,11 +6,11 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const navbar = () => {
   return (
     <>
-    <div className="navcontainer">
+    <navbar className="navcontainer">
         <div className="navlogo">
             <p>Malitha Supun</p>
         </div>
-        <div className="navitems">
+        <div className="navitems" >
             <ul>
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
@@ -19,7 +19,7 @@ const navbar = () => {
             </ul>
         </div>
         <GiHamburgerMenu id='menu-icon' className='mr-6'/>
-    </div>
+    </navbar>
     </>
   )
 }
