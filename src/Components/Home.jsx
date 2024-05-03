@@ -19,7 +19,9 @@ const Home = () => {
             <a href='https://www.linkedin.com/in/malitha-supun-a6145314a/'><img className="social-icon" src={linkedin} alt="linkedin" /></a>
             <a href='https://www.instagram.com/supun_malitha/?hl=en'><img className="social-icon" src={insta} alt="insta" /></a>
             </div>
+            <a href="src\Assets\Malitha Supun.pdf" download="Malitha_Supun_CV.pdf">
             <button className="DownloadCv">Download CV</button>
+            </a>
         </div>
         <div className="imagesection">
         <img src={profilePic} alt="Profile Picture"/>
