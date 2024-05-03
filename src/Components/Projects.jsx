@@ -31,7 +31,7 @@ const Projects = () => {
   <div class="card-body">
     <h5 class="card-title">Time tiker</h5>
     <p class="card-text">#java #neatbeans - this based on uni 1st year project</p>
-    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
+    <a href="https://github.com/MalithaSupun/TimeTikerProject.git" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
@@ -40,7 +40,7 @@ const Projects = () => {
   <div class="card-body">
     <h5 class="card-title">Villa 846</h5>
     <p class="card-text">#Html #Css #js - This for Guest house coaded by me</p>
-    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
+    <a href="https://github.com/MalithaSupun/Villa846-web.git" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
@@ -49,7 +49,7 @@ const Projects = () => {
   <div class="card-body">
     <h5 class="card-title">Weather App</h5>
     <p class="card-text">#flutter #dart - I was code to gain knowledge</p>
-    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
+    <a href="https://github.com/MalithaSupun/WeatherApp.git" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
@@ -58,7 +58,7 @@ const Projects = () => {
   <div class="card-body">
     <h5 class="card-title">WebPos UI</h5>
     <p class="card-text">#Boostrap #Html #Css #js - I was code to gain knowledge</p>
-    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
+    <a href="#https://github.com/MalithaSupun/Web-POS-system.git" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
