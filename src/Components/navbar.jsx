@@ -18,7 +18,7 @@ const navbar = () => {
                 <li><a>Contact Me</a></li>
             </ul>
         </div>
-        <GiHamburgerMenu id='menu-icon' className='mr-7'/>
+        <GiHamburgerMenu id='menu-icon' className='mr-6'/>
     </div>
     </>
   )
