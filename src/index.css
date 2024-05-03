@@ -738,3 +738,9 @@
 }
 /*get in touch*/
 }
+
+@media (min-width: 640px) {
+  #menu-icon {
+    display: none;
+  }
+}

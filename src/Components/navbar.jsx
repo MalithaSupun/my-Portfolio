@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { IoMdMenu } from "react-icons/io";
 
 
 const navbar = () => {
@@ -17,6 +18,7 @@ const navbar = () => {
                 <li><a>Contact Me</a></li>
             </ul>
         </div>
+        <IoMdMenu id='menu-icon'/>
     </div>
     </>
   )
