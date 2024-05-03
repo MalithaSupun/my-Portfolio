@@ -26,8 +26,8 @@ const Getintouch = () => {
             <img id='mobileicong-i-tcopy' src={mailcopyicon} alt=""/>
         </div>
         <div className="get-in-touch-social-icons-section">
-            <h6>You may also find me on these platforms!</h6>
-            <div className="get-in-touch-social-icons mt-2">
+            <h6 id='get-i-t-h6-tag'>You may also find me on these platforms!</h6>
+            <div className="get-in-touch-social-icons mt-4">
              <a href='https://github.com/MalithaSupun'>
             <img id='social-icons-get-i-t' src={giticon} alt=""/>
             </a>

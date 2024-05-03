@@ -5,6 +5,7 @@ import timetiker from './../Assets/projects/timetiker.png'
 import Villa846 from './../Assets/projects/villa846.png'
 import weatherapp from './../Assets/projects/wetherapp.png'
 import Webpos from './../Assets/projects/Web pos.png'
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -17,47 +18,47 @@ const Projects = () => {
 
         <div className="projectcards">
         <div class="card" style={{ width: '18rem' }}>
-  <img src={WebPharmacy} class="card-img-top" alt="..."/>
+  <img src={WebPharmacy} class="card-img-top static-img" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Pharmacy Web Project</h5>
     <p class="card-text">#Boostrap #Html #css #php -this is uni project 2nd year</p>
-    <a href="#" class="btn btn-primary">View in Github</a>
+    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
 <div class="card" style={{width: '18rem' }}>
-  <img src={timetiker} class="card-img-top" alt="..."/>
+  <img src={timetiker} class="card-img-top static-img" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Time tiker</h5>
     <p class="card-text">#java #neatbeans - this based on uni 1st year project</p>
-    <a href="#" class="btn btn-primary">View in Github</a>
+    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
 <div class="card" style={{ width: '18rem' }}>
-  <img src={Villa846} class="card-img-top" alt="..."/>
+  <img src={Villa846} class="card-img-top static-img" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Villa 846</h5>
     <p class="card-text">#Html #Css #js - This for Guest house coaded by me</p>
-    <a href="#" class="btn btn-primary">View in Github</a>
+    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
 <div class="card" style={{ width: '18rem' }}>
-  <img src={weatherapp} class="card-img-top" alt="..."/>
+  <img src={weatherapp} class="card-img-top static-img" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Weather App</h5>
     <p class="card-text">#flutter #dart - I was code to gain knowledge</p>
-    <a href="#" class="btn btn-primary">View in Github</a>
+    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
 <div class="card" style={{ width: '18rem' }}>
-  <img src={Webpos} class="card-img-top" alt="..."/>
+  <img src={Webpos} class="card-img-top static-img" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">WebPos UI</h5>
     <p class="card-text">#Boostrap #Html #Css #js - I was code to gain knowledge</p>
-    <a href="#" class="btn btn-primary">View in Github</a>
+    <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
