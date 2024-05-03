@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <Projects/>
       <Getintouch />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

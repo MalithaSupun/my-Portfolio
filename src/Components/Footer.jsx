@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
      <div class="footer-content">
-            <p>&copy; 2024 | Designed and coded with by Malitha Supun</p>
+            <p id='footer-p-tag'>&copy; 2024 | Designed and coded with by Malitha Supun</p>
         </div>
     </>
   )

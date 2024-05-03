@@ -656,10 +656,12 @@
   max-width: 25px;
   max-height: 25px;
 }
-
-
 /*get in touch*/
-
+/*footer*/
+#footer-p-tag {
+  font-size: 13px;
+}
+/*footer*/
 }
 
 
