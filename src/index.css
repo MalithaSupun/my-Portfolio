@@ -334,6 +334,9 @@
   display: flex;
 }
 
+#get-in-t-h2{
+  font-size: 30px;
+}
 
 /*end Get-in-touch section */
 /*Footer section */
@@ -631,6 +634,31 @@
   gap: 10px;
 }
 /*projects*/
+
+/*get in touch*/
+#get-in-t-h2{
+  font-size: 20px;
+}
+
+#mobileicong-i-t {
+  max-height: 25px;
+}
+#mobileicong-i-tcopy {
+  max-height: 25px;
+}
+
+#mailicong-i-t {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+#mailicong-i-tcopy {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+
+/*get in touch*/
 
 }
 

@@ -18,7 +18,7 @@ function App() {
       <Aboutme />
       <Skills />
       <Projects/>
-      {/* <Getintouch /> */}
+      <Getintouch />
       {/* <Footer /> */}
     </>
   )

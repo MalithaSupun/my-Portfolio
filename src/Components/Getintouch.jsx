@@ -17,12 +17,12 @@ const Getintouch = () => {
         </div>
         <div className="getintouchmail">
             <img id='mailicong-i-t' src={mailicon} alt=""/>
-            <h2>malithasupun2@gmail.com</h2>
+            <h2 id='get-in-t-h2'>malithasupun2@gmail.com</h2>
             <img id='mailicong-i-tcopy' src={mailcopyicon} alt=""/>
         </div>
         <div className="getintouchmobile">
             <img id='mobileicong-i-t' src={telephoneicon} alt=""/>
-            <h2>+94 718465170</h2>
+            <h2 id='get-in-t-h2'>+94 718465170</h2>
             <img id='mobileicong-i-tcopy' src={mailcopyicon} alt=""/>
         </div>
         <div className="get-in-touch-social-icons-section">
