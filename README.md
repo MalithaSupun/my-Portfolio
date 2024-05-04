@@ -23,7 +23,8 @@ JavaScript (JS): Adding interactivity and functionality to web applications.
 All projects in this portfolio are built with responsiveness in mind, ensuring a seamless experience across various devices and screen sizes.
 
 🌟 Featured Project:
-Project Name: Brief description of the project. [https://i.pinimg.com/originals/ab/fe/4d/abfe4d897af284704c5a7241991057da.png]
+![Image of portfolio](https://i.pinimg.com/originals/ab/fe/4d/abfe4d897af284704c5a7241991057da.png)
+
 
 
 # React + Vite
