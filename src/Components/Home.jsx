@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'; // Add imports
 import profilePic from './../Assets/Untitled-2.png';
 import github from './../Assets/socail icon/github-white.png';
 import insta from './../Assets/socail icon/insta-white.png';
 import linkedin from './../Assets/socail icon/linkedin -white.png';
 
 const Home = () => {
+  const textSectionRef = useRef(null);
+  const imageRef = useRef(null);
+  
+  useEffect(() => {
+    // Add animation class after component mounts
+    if (textSectionRef.current) {
+      textSectionRef.current.classList.add('animate');
+    }
+    if (imageRef.current) {
+      imageRef.current.classList.add('animate');
+    }
+  }, []);
+
   return (
     <>
 <div className="homecontainer">
-        <div className="H-textSection">
+        <div ref={textSectionRef} className="H-textSection">
             <h1>Hi,I'm Malitha Supun👋</h1>
             <p>As a full stack developer, I'm dedicated to crafting fast, accessible, visually appealing, and responsive digital experiences. Each project excites me anew, driving me to innovate and create exceptional solutions. With expertise in both front-end and back-end technologies, I strive to exceed expectations and leave a lasting impression.</p>
             <div className="ptaglocationhome">
@@ -24,7 +37,7 @@ const Home = () => {
             </a>
         </div>
         <div className="imagesection">
-        <img src={profilePic} alt="Profile Picture"/>
+        <img ref={imageRef} src={profilePic} alt="Profile Picture"/>
         </div>
     </div>
     </>
