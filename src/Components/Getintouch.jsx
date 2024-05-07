@@ -16,7 +16,7 @@ const Getintouch = () => {
     };
   }, []);
 
-
+  // iOS does not support the Vibration API for security and privacy reasons.
   const copyTextToClipboard = (text) => {
     // Check if the Vibration API is supported
     if ("vibrate" in navigator) {
