@@ -412,6 +412,37 @@
   font-size: 30px;
 }
 
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-1.5px); }
+  50% { transform: translateX(1.5px); }
+  75% { transform: translateX(-1.5px); }
+  100% { transform: translateX(0); }
+}
+
+#mobileicong-i-t.shake {
+  animation: shake 0.5s infinite;
+}
+
+
+.getintouchmobile button img {
+  transition: transform 0.2s; /* Add transition for smooth effect */
+}
+
+.getintouchmobile button:active img {
+  transform: scale(0.6); /* Apply scale transformation on click */
+}
+
+.getintouchmail button img {
+  transition: transform 0.2s; /* Add transition for smooth effect */
+}
+
+.getintouchmail button:active img {
+  transform: scale(0.6); /* Apply scale transformation on click */
+}
+
+
+
 /*end Get-in-touch section */
 /*Footer section */
 .footer-content {
