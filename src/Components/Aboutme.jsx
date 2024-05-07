@@ -41,7 +41,7 @@ const Aboutme = () => {
                     👉 B.Sc. (Hons) Computer Science and Software Engineering  &emsp;  👉 Avid learner &emsp;👉 Part time freelancer &emsp; 
                 </p>
                 <p class="about-me__text">
-                    I'm available for internship and freelance work, so feel free to reach out and say hello! I promise I don't bite 😉
+                    I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉
                 </p>
           </div>
         </div>
