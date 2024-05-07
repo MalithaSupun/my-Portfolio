@@ -16,7 +16,14 @@ const Getintouch = () => {
     };
   }, []);
 
+
   const copyTextToClipboard = (text) => {
+    // Check if the Vibration API is supported
+    if ("vibrate" in navigator) {
+      // Vibrate the device for 100 milliseconds
+      navigator.vibrate(100);
+    }
+  
     navigator.clipboard.writeText(text)
       .then(() => {
         console.log('Text copied to clipboard:', text);
@@ -27,6 +34,7 @@ const Getintouch = () => {
         // Handle any errors here
       });
   };
+  
 
   
   
