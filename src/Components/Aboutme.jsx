@@ -22,7 +22,7 @@ const Aboutme = () => {
                 </p>
 
                 <p class="about-me__text">
-                    I began my journey as a web developer, eager to dive into the world of coding. Since then, I've embraced every challenge, continually expanding my skill set and staying updated with the latest technologies. Now, proficient in Java, HTML, CSS, Flutter, Bootstrap, TailwindCSS, and React, I specialize in creating intuitive and efficient digital experiences across platforms. Let's build something amazing together!
+                    I began my journey as a web developer, eager to dive into the world of coding. Since then, I've embraced every challenge, continually expanding my skill set and staying updated with the latest technologies. Now, proficient in Java, HTML, CSS, Bootstrap, TailwindCSS, and React, I specialize in creating intuitive and efficient digital experiences across platforms. Let's build something amazing together!
                 </p>
 
                 <p class="about-me__text">
