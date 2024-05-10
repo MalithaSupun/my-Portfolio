@@ -269,6 +269,12 @@
 .skillitemimg p {
   margin-top: 10px; /* Adjust the margin as needed */
 }
+.skillitemimg img {
+  transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+.skillitemimg:hover img {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+}
 
 /*end Skill section */
 /* Projects section */
