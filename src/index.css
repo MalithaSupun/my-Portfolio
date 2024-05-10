@@ -15,6 +15,14 @@
   --gray: #464646;
   --backgroundtwo: #1a1a1a;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 /*navbar*/
