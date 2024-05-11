@@ -13,13 +13,13 @@ const Projects = () => {
     <div className="projectsontainer">
     <div className="projecttitle">
             <h5 id='projecttitle-text'>Projects</h5>
-            <p className='mt-2'>Some of the noteworthy projects I have built:</p>
+            <p className='mt-4 mb-4'>Some of the noteworthy projects I have built:</p>
         </div>
 
         <div className="projectcards">
         <div class="card" style={{ width: '18rem' }}>
   <img src={WebPharmacy} class="card-img-top static-img" alt="..."/>
-  <div class="card-body">
+  <div className="card-body">
     <h5 class="card-title">Pharmacy Web Project</h5>
     <p class="card-text">#Boostrap #Html #css #php -this is uni project 2nd year</p>
     <a href="#" class="btn btn-primary"><FaGithub /> <span>Github</span></a>

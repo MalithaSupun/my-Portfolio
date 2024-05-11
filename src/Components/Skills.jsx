@@ -28,7 +28,7 @@ const Skills = () => {
     <div className="skillcontainer">
         <div className="skilltitle">
             <h5 id='aboutmetitle-text'>SKILLS</h5>
-            <p className='mt-2'>The skills, tools and technologies I am really good at:</p>
+            <p className='mt-4 mb-5'>The skills, tools and technologies I am really good at:</p>
         </div>
         <div className="skillitems">
 
