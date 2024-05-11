@@ -1,5 +1,5 @@
 import React from 'react'
-import myLogoSVG from './../../MYLOGO.svg'; // Path to your SVG file
+import myLogoSVG from './../../loading3.svg'; // Path to your SVG file
 
 function Loading() {
   return (
