@@ -232,6 +232,15 @@
   color: #9c9090; /* Adjust color as needed */
   font-size: 1rem; /* Adjust font size as needed */
 }
+
+.aboutmepic img {
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.aboutmepic img:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
 /*end Aboutme section */
 
 /*Skill section */
