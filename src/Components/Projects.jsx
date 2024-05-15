@@ -13,7 +13,7 @@ const Projects = () => {
     <div className="projectsontainer">
     <div className="projecttitle">
             <h5 id='projecttitle-text'>Projects</h5>
-            <p className='mt-4 mb-5'>Some of the noteworthy projects I have built:</p>
+            <p className='mt-4 mb-6'>Some of the noteworthy projects I have built:</p>
         </div>
 
         <div className="projectcards">
