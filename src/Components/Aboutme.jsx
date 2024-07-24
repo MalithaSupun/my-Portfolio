@@ -1,16 +1,20 @@
 import React from 'react'
 import adbouemepic from './../Assets/black.png'
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
 const Aboutme = () => {
   return (
     <>
+    <ParallaxProvider>
     <div className="aboutmecontainer">
       <div className="aboutmetitle">
         <h5 id='skillstitle-text'>About me</h5>
       </div>
       <div className="aboutmepicandpara">
         <div className="aboutmepic">
+        <Parallax speed={-10} isAbsolutelyPositioned>
         <img id='aboutmepicimg' src={adbouemepic} alt="Your Image" />
+        </Parallax>
         </div>
         <div className="aboutmeparacontainer">
           <div className="aboutmeparatitle">
@@ -47,6 +51,7 @@ const Aboutme = () => {
         </div>
       </div>
       </div>    
+      </ParallaxProvider>
     </>
   )
 }
