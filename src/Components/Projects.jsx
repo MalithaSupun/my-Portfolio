@@ -5,6 +5,7 @@ import timetiker from './../Assets/projects/timetiker.png'
 import Villa846 from './../Assets/projects/villa846.png'
 import weatherapp from './../Assets/projects/wetherapp.png'
 import Webpos from './../Assets/projects/Web pos.png'
+import Brainwave from './../Assets/projects/Brainwave.png'
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
@@ -59,6 +60,15 @@ const Projects = () => {
     <h5 class="card-title">WebPos UI</h5>
     <p class="card-text">#Boostrap #Html #Css #js - I was code to gain knowledge</p>
     <a href="#https://github.com/MalithaSupun/Web-POS-system.git" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
+  </div>
+</div>
+
+<div class="card" style={{ width: '18rem' }}>
+  <img src={Brainwave} class="card-img-top static-img" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Brainwave UI</h5>
+    <p class="card-text">#React #tailwindcss - I was code to gain knowledge</p>
+    <a href="#https://github.com/MalithaSupun/brainwave.git" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
   </div>
 </div>
 
