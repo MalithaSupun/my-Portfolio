@@ -82,6 +82,14 @@ const Projects = () => {
   </div>
 </div>
 
+<div class="card" style={{ width: '18rem' }}>
+  <img src="https://i.pinimg.com/736x/87/b0/81/87b081cbb02f5342f6a89fd739ff29b0.jpg" class="card-img-top static-img" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Emoji Lovers</h5>
+    <p class="card-text">#Swift - I was code to gain knowledge</p>
+    <a href="https://i.pinimg.com/736x/87/b0/81/87b081cbb02f5342f6a89fd739ff29b0.jpg" class="btn btn-primary"><FaGithub /> <span>Github</span></a>
+  </div>
+</div>
 
         </div>
 
